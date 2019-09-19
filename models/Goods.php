@@ -28,7 +28,7 @@ public function __construct()
 
 public function funcStart()
 {
-   $query = "select id, marka, model, price, image from computers order by marka asc";
+   $query = "select id, marka, model, price, image from computers order by marka desc";
    $pstmt = $this->link_db->prepare($query);
    $pstmt->execute();
    $this->row_db = $pstmt->fetchAll();
