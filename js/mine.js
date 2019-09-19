@@ -5,7 +5,7 @@
    $("body").on("click", "[name='sort_bottom']", function(){BaseRecord.sort('asc');});
    $("body").on("click", "[name='sort_top']", function(){BaseRecord.sort('desc');});
    $("body").on("click", ".order", function(){BaseRecord.order($(this).attr('value'));});
-   //BaseRecord.currency();
+   BaseRecord.currency();
 });
 var BaseRecord={
 
