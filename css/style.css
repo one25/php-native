@@ -1,0 +1,170 @@
+﻿body {
+font-size:1em;
+font-family:arial;
+color:indigo;
+background-color:white;
+}
+
+.container {
+width:85%;
+margin:0px auto;
+}
+
+.form_insert {
+width:25%;
+float:left;
+border:1px solid green;
+border-radius:4px;
+padding:10px;
+}
+
+.form_select {
+width:65%;
+float:left;
+border-radius:4px;
+padding:10px;
+margin-left:2%
+}
+
+th {
+border:1px solid gray;
+background-color:gray;
+color:white;
+font-weight:bolder;
+padding:5px;
+width:20%;
+}
+
+td {
+border:1px solid blue;
+background-color:whitesmoke;
+font-weight:normal;
+padding:5px;
+width:20%;
+}
+
+input, button {
+font-size:1em;
+font-family:arial;
+}
+
+img {
+width:125px;
+}
+
+.img_little {
+width:100px;
+}
+
+.img_very_little {
+width:10px;
+cursor:pointer;
+}
+
+.td_rowspan_price {
+border:none;
+text-align:center;
+font-weight:bold;
+background-color:white;
+}
+
+.td_rowspan_img {
+border:none;
+text-align:center;
+background-color:white;
+}
+
+.green {
+color:green;
+}
+
+.blue {
+color:blue;
+}
+
+.gold {
+color:gold;
+}
+
+.upload_field {
+opacity:0.0;
+z-index:2;
+position:absolute;
+}
+
+.upload_submit {
+z-index:1;
+display:none;
+}
+
+.upload_button_decoration {
+width:125px;
+}
+
+.none {
+display:none;
+}
+
+.center {
+text-align:center;
+}
+
+.red {
+color:red;
+}
+
+.lightgreen {
+color:lightgreen;
+}
+
+.currency {
+font-weight:bolder;
+}
+
+.currency_title, .currency_usd_value, .currency_eur_value {
+float:left;
+width:20%;
+}
+
+.clear {
+clear:both;
+}
+
+.cart_left {
+width: 45%;
+float: left;
+}
+
+.cart_right {
+width: 45%;
+float: left;
+}
+
+.cart_img {
+width: 400px;
+}
+
+label {
+font-size: 1.5em;
+}
+
+.input-size {
+width: 300px;
+font-size: 1.5em;
+}
+
+.margin {
+margin: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
